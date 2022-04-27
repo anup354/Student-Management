@@ -23,7 +23,28 @@ SET time_zone = "+00:00";
 --
 
 -- --------------------------------------------------------
+--
+-- Table structure for table `tblaccountant`
+--
 
+CREATE TABLE `tblaccountant` (
+  `ID` int(10) NOT NULL,
+  `AccountantName` varchar(120) DEFAULT NULL,
+  `UserName` varchar(120) DEFAULT NULL,
+  `MobileNumber` bigint(10) DEFAULT NULL,
+  `Email` varchar(200) DEFAULT NULL,
+  `Password` varchar(200) DEFAULT NULL,
+  `AccountantRegdate` timestamp NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tblaccountnt`
+--
+
+INSERT INTO `tblaccountant` (`ID`, `AccountantName`, `UserName`, `MobileNumber`, `Email`, `Password`, `AccountantRegdate`) VALUES
+(1, 'Accontant', 'accoutant', 8979555558, 'account@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2019-10-11 04:36:52');
+
+-- --------------------------------------------------------
 --
 -- Table structure for table `tbladmin`
 --

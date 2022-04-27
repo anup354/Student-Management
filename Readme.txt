@@ -25,5 +25,5 @@ Credential for Student / User panel :
 
 Username: anujk3
 Password: Test@123
-
+//Simplilearn - Online Certification Training Course Provider
  Or Register a new Student/User.
